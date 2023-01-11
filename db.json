@@ -8,12 +8,6 @@
  },
  "fields": [
   {
-   "name": "IncidentName",
-   "alias": "Incident Name",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
    "name": "InitialLatitude",
    "alias": "Initial Latitude",
    "type": "esriFieldTypeDouble"
