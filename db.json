@@ -18,11 +18,6 @@
    "alias": "Local Incident Identifier",
    "type": "esriFieldTypeString",
    "length": 10
-  },
-  {
-   "name": "OBJECTID",
-   "alias": "OBJECTID",
-   "type": "esriFieldTypeOID"
   }
  ],
 "features": [
@@ -31,7 +26,6 @@
     "IncidentName": "RIVER",
     "IrwinID": "{FDA81A41-9A67-41DE-972F-AE69843B646C}",
     "LocalIncidentIdentifier": "003851",
-    "OBJECTID": 6399975
    },
    "geometry": {
     "x": -121.63709999999998,
@@ -43,7 +37,6 @@
     "IncidentName": "PERRY",
     "IrwinID": "{BA9ECAAD-0389-46A3-A3FD-45A376DD04BB}",
     "LocalIncidentIdentifier": "017323",
-    "OBJECTID": 6494381
    },
    "geometry": {
     "x": -121.10349899999994,
@@ -55,7 +48,6 @@
     "IncidentName": "BOOLE",
     "IrwinID": "{6544E74D-110A-49D8-B439-888E8B5AFB57}",
     "LocalIncidentIdentifier": "017356",
-    "OBJECTID": 6494386
    },
    "geometry": {
     "x": -120.97984099999996,
