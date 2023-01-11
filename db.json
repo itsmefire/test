@@ -1,31 +1,4 @@
-{
- "objectIdFieldName": "OBJECTID",
- "globalIdFieldName": "GlobalID",
- "geometryType": "esriGeometryPoint",
- "spatialReference": {
-  "wkid": 4269,
-  "latestWkid": 4269
- },
- "fields": [
-  {
-   "name": "IncidentName",
-   "alias": "Incident Name",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
-   "name": "IrwinID",
-   "alias": "Irwin ID",
-   "type": "esriFieldTypeGUID",
-   "length": 38
-  },
-  {
-   "name": "OBJECTID",
-   "alias": "OBJECTID",
-   "type": "esriFieldTypeOID"
-  }
- ],
- "features": [
+"features": [
   {
    "attributes": {
     "IncidentName": "TOPO",
