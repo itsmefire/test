@@ -8,35 +8,6 @@
  },
  "fields": [
   {
-   "name": "ABCDMisc",
-   "alias": "ABCD Misc",
-   "type": "esriFieldTypeString",
-   "length": 4
-  },
-  {
-   "name": "ADSPermissionState",
-   "alias": "ADS Permission State",
-   "type": "esriFieldTypeString",
-   "length": 100
-  },
-  {
-   "name": "CalculatedAcres",
-   "alias": "Calculated Acres",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "ContainmentDateTime",
-   "alias": "Containment Date Time",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "ControlDateTime",
-   "alias": "Control Date Time",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
    "name": "CreatedBySystem",
    "alias": "Created By System",
    "type": "esriFieldTypeString",
@@ -62,22 +33,6 @@
    "alias": "Dispatch Center ID",
    "type": "esriFieldTypeString",
    "length": 6
-  },
-  {
-   "name": "EstimatedContainmentDate",
-   "alias": "Estimated Containment Date",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "EstimatedCostToDate",
-   "alias": "Estimated Cost To Date",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "FinalAcres",
-   "alias": "Final Acres",
-   "type": "esriFieldTypeDouble"
   },
   {
    "name": "FireCause",
@@ -247,103 +202,14 @@
    "type": "esriFieldTypeOID"
   },
   {
-   "name": "POOCity",
-   "alias": "POO City",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
-   "name": "POOCounty",
-   "alias": "POO County",
-   "type": "esriFieldTypeString",
-   "length": 100
-  },
-  {
    "name": "POODispatchCenterID",
    "alias": "Dispatch Center ID",
    "type": "esriFieldTypeString",
    "length": 6
   },
   {
-   "name": "POOFips",
-   "alias": "POO Fips",
-   "type": "esriFieldTypeString",
-   "length": 5
-  },
-  {
    "name": "POOJurisdictionalAgency",
    "alias": "POO Jurisdictional Agency",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
-   "name": "POOJurisdictionalUnit",
-   "alias": "POO Jurisdictional Unit",
-   "type": "esriFieldTypeString",
-   "length": 6
-  },
-  {
-   "name": "POOJurisdictionalUnitParentUnit",
-   "alias": "POO Jurisdictional Unit Parent Unit",
-   "type": "esriFieldTypeString",
-   "length": 6
-  },
-  {
-   "name": "POOLandownerCategory",
-   "alias": "POO Landowner Category",
-   "type": "esriFieldTypeString",
-   "length": 7
-  },
-  {
-   "name": "POOLandownerKind",
-   "alias": "POO Landowner Kind",
-   "type": "esriFieldTypeString",
-   "length": 7
-  },
-  {
-   "name": "POOLegalDescPrincipalMeridian",
-   "alias": "POO Legal Desc Principal Meridian",
-   "type": "esriFieldTypeString",
-   "length": 30
-  },
-  {
-   "name": "POOLegalDescQtr",
-   "alias": "POO Legal Desc Qtr",
-   "type": "esriFieldTypeString",
-   "length": 2
-  },
-  {
-   "name": "POOLegalDescQtrQtr",
-   "alias": "POO Legal Desc Qtr Qtr",
-   "type": "esriFieldTypeString",
-   "length": 2
-  },
-  {
-   "name": "POOLegalDescRange",
-   "alias": "POO Legal Desc Range",
-   "type": "esriFieldTypeString",
-   "length": 5
-  },
-  {
-   "name": "POOLegalDescSection",
-   "alias": "POO Legal Desc Section",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "POOLegalDescTownship",
-   "alias": "POO Legal Desc Township",
-   "type": "esriFieldTypeString",
-   "length": 5
-  },
-  {
-   "name": "POOPredictiveServiceAreaID",
-   "alias": "POO Predictive Service Area ID",
-   "type": "esriFieldTypeString",
-   "length": 6
-  },
-  {
-   "name": "POOProtectingAgency",
-   "alias": "POO Protecting Agency",
    "type": "esriFieldTypeString",
    "length": 50
   },
@@ -371,28 +237,6 @@
    "type": "esriFieldTypeGlobalID",
    "length": 38
   },
-  {
-   "name": "EstimatedFinalCost",
-   "alias": "Estimated Final Cost",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "IsPOOOnUnprotectedLand",
-   "alias": "Point Of Origin On Unprotected Land",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "UnprotectedLandResponseReason",
-   "alias": "Unprotected Land Response Reason",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
-   "name": "DetectionMethod",
-   "alias": "The method by which the fire was detected.",
-   "type": "esriFieldTypeString",
-   "length": 255
-  }
  ],
  "features": [
   {
