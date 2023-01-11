@@ -8,20 +8,10 @@
  },
  "fields": [
   {
-   "name": "InitialLatitude",
-   "alias": "Initial Latitude",
-   "type": "esriFieldTypeDouble"
-  },
-  {
    "name": "IrwinID",
    "alias": "Irwin ID",
    "type": "esriFieldTypeGUID",
    "length": 38
-  },
-  {
-   "name": "IsFireCodeRequested",
-   "alias": "Is Fire Code Requested",
-   "type": "esriFieldTypeSmallInteger"
   },
   {
    "name": "LocalIncidentIdentifier",
@@ -35,62 +25,43 @@
    "type": "esriFieldTypeOID"
   }
  ],
- "features": [
+"features": [
   {
    "attributes": {
-    "IncidentName": "TOPO",
-    "InitialLatitude": 36.3745,
-    "IrwinID": "{E26092ED-08E6-48C6-97C1-FD0BDDB118F3}",
-    "IsFireCodeRequested": 0,
-    "LocalIncidentIdentifier": "003815",
-    "OBJECTID": 6388783
+    "IncidentName": "RIVER",
+    "IrwinID": "{FDA81A41-9A67-41DE-972F-AE69843B646C}",
+    "LocalIncidentIdentifier": "003851",
+    "OBJECTID": 6399975
    },
    "geometry": {
-    "x": -121.04399999999998,
-    "y": 36.374500000000069
+    "x": -121.63709999999998,
+    "y": 36.597600000000057
    }
   },
   {
    "attributes": {
-    "IncidentName": "HWY 101  N/ UNDERWOOD RD",
-    "InitialLatitude": 36.29366,
-    "IrwinID": "{C041C3D6-E18A-458A-A748-D42C8C648F87}",
-    "IsFireCodeRequested": 0,
-    "LocalIncidentIdentifier": "003814",
-    "OBJECTID": 6389186
+    "IncidentName": "PERRY",
+    "IrwinID": "{BA9ECAAD-0389-46A3-A3FD-45A376DD04BB}",
+    "LocalIncidentIdentifier": "017323",
+    "OBJECTID": 6494381
    },
    "geometry": {
-    "x": -121.20131999999995,
-    "y": 36.293660000000045
+    "x": -121.10349899999994,
+    "y": 38.880582000000061
    }
   },
   {
    "attributes": {
-    "IncidentName": "ROCK SPRING VMP",
-    "InitialLatitude": 36.451659,
-    "IrwinID": "{0FCF3453-0556-4A35-BBC5-7CEDB75B48EA}",
-    "IsFireCodeRequested": 0,
-    "LocalIncidentIdentifier": "005206",
-    "OBJECTID": 6389188
+    "IncidentName": "BOOLE",
+    "IrwinID": "{6544E74D-110A-49D8-B439-888E8B5AFB57}",
+    "LocalIncidentIdentifier": "017356",
+    "OBJECTID": 6494386
    },
    "geometry": {
-    "x": -120.98469099999994,
-    "y": 36.451659000000063
+    "x": -120.97984099999996,
+    "y": 38.995026000000053
    }
-  },
-  {
-   "attributes": {
-    "IncidentName": "STN 38 - ANTELOPE ANTELOP",
-    "InitialLatitude": 36.644424,
-    "IrwinID": "{FC8CB28F-ED1E-4B77-A2E7-AA8CDEF0516D}",
-    "IsFireCodeRequested": 0,
-    "LocalIncidentIdentifier": "003813",
-    "OBJECTID": 6389190
-   },
-   "geometry": {
-    "x": -121.02880799999997,
-    "y": 36.644424000000072
-   }
+  }
   }
  ]
 }
