@@ -14,12 +14,6 @@
    "length": 4
   },
   {
-   "name": "AdditionalFuelModel",
-   "alias": "Additional Fuel Model",
-   "type": "esriFieldTypeString",
-   "length": 30
-  },
-  {
    "name": "ADSPermissionState",
    "alias": "ADS Permission State",
    "type": "esriFieldTypeString",
@@ -54,12 +48,6 @@
    "type": "esriFieldTypeDouble"
   },
   {
-   "name": "CriticalResourceNeeds",
-   "alias": "CriticalResourceNeeds",
-   "type": "esriFieldTypeString",
-   "length": 255
-  },
-  {
    "name": "IncidentSize",
    "alias": "Incident Size",
    "type": "esriFieldTypeDouble"
@@ -87,80 +75,9 @@
    "type": "esriFieldTypeDouble"
   },
   {
-   "name": "Fatalities",
-   "alias": "Fatalities",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
    "name": "FinalAcres",
    "alias": "Final Acres",
    "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "FinalFireReportApprovedBy",
-   "alias": "Final Fire Report Approved By",
-   "type": "esriFieldTypeString",
-   "length": 100
-  },
-  {
-   "name": "FinalFireReportApprovedByTitle",
-   "alias": "Final Fire Report Approved By Title",
-   "type": "esriFieldTypeString",
-   "length": 100
-  },
-  {
-   "name": "FinalFireReportApprovedByUnit",
-   "alias": "Final Fire Report Approved By Unit",
-   "type": "esriFieldTypeString",
-   "length": 6
-  },
-  {
-   "name": "FinalFireReportApprovedDate",
-   "alias": "Final Fire Report Approved Date",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "FinalFireReportNarrative",
-   "alias": "Final Fire Report Narrative",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "FinalStrategyAttainedDateTime",
-   "alias": "Final Strategy Attained Date Time",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "FireBehaviorDescription",
-   "alias": "Fire Behavior Description",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "FireBehaviorGeneral",
-   "alias": "Fire Behavior General",
-   "type": "esriFieldTypeString",
-   "length": 20
-  },
-  {
-   "name": "FireBehaviorGeneral1",
-   "alias": "Fire Behavior General 1",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
-   "name": "FireBehaviorGeneral2",
-   "alias": "Fire Behavior General 2",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
-   "name": "FireBehaviorGeneral3",
-   "alias": "Fire Behavior General 3",
-   "type": "esriFieldTypeString",
-   "length": 50
   },
   {
    "name": "FireCause",
@@ -199,56 +116,6 @@
    "length": 8
   },
   {
-   "name": "FireGrowthCessationDateTime",
-   "alias": "Fire Growth Cessation Date Time",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "FireIgnitionDateTime",
-   "alias": "Fire Ignition Date Time",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "FireMgmtComplexity",
-   "alias": "Fire Mgmt Complexity",
-   "type": "esriFieldTypeString",
-   "length": 25
-  },
-  {
-   "name": "FireOutDateTime",
-   "alias": "Fire Out Date Time",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "FireStrategyConfinePercent",
-   "alias": "Fire Strategy Confine Percent",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "FireStrategyFullSuppPercent",
-   "alias": "Fire Strategy Full Supp Percent",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "FireStrategyMonitorPercent",
-   "alias": "Fire Strategy Monitor Percent",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "FireStrategyPointZonePercent",
-   "alias": "Fire Strategy Point Zone Percent",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "FiscallyResponsibleUnit",
-   "alias": "Fiscally Responsible Unit",
-   "type": "esriFieldTypeString",
-   "length": 6
-  },
-  {
    "name": "FSJobCode",
    "alias": "FS Job Code",
    "type": "esriFieldTypeString",
@@ -265,58 +132,6 @@
    "alias": "GACC",
    "type": "esriFieldTypeString",
    "length": 50
-  },
-  {
-   "name": "HasFatalities",
-   "alias": "Has Fatalities",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "HasInjuries",
-   "alias": "Has Injuries",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "ICS209Remarks",
-   "alias": "ICS209 Remarks",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "ICS209ReportDateTime",
-   "alias": "ICS209 Report Date Time",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "ICS209ReportForTimePeriodFrom",
-   "alias": "ICS209 Report For Time Period From",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "ICS209ReportForTimePeriodTo",
-   "alias": "ICS209 Report For Time Period To",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "ICS209ReportStatus",
-   "alias": "ICS209 Report Status",
-   "type": "esriFieldTypeString",
-   "length": 1
-  },
-  {
-   "name": "IncidentCommanderName",
-   "alias": "Incident Commander Name",
-   "type": "esriFieldTypeString",
-   "length": 255
-  },
-  {
-   "name": "IncidentManagementOrganization",
-   "alias": "Incident Management Organization",
-   "type": "esriFieldTypeString",
-   "length": 255
   },
   {
    "name": "IncidentName",
@@ -343,23 +158,6 @@
    "length": 2
   },
   {
-   "name": "INFORMUserName",
-   "alias": "INFORM User Name",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
-   "name": "InFuelTreatment",
-   "alias": "InFuelTreatment",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "InitialFireStrategy",
-   "alias": "Initial Fire Strategy",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
    "name": "InitialLatitude",
    "alias": "Initial Latitude",
    "type": "esriFieldTypeDouble"
@@ -381,25 +179,10 @@
    "length": 8
   },
   {
-   "name": "Injuries",
-   "alias": "Injuries",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "InNFPORS",
-   "alias": "InNFPORS",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
    "name": "IrwinID",
    "alias": "Irwin ID",
    "type": "esriFieldTypeGUID",
    "length": 38
-  },
-  {
-   "name": "IsFireCauseInvestigated",
-   "alias": "Is Fire Cause Investigated",
-   "type": "esriFieldTypeSmallInteger"
   },
   {
    "name": "IsFireCodeRequested",
@@ -409,11 +192,6 @@
   {
    "name": "IsFSAssisted",
    "alias": "Is FS Assisted",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "IsInitialFireStrategyMet",
-   "alias": "Is Initial Fire Strategy Met",
    "type": "esriFieldTypeSmallInteger"
   },
   {
@@ -467,32 +245,6 @@
    "name": "OBJECTID",
    "alias": "OBJECTID",
    "type": "esriFieldTypeOID"
-  },
-  {
-   "name": "OtherStructuresDestroyed",
-   "alias": "Other Structures Destroyed",
-   "type": "esriFieldTypeInteger"
-  },
-  {
-   "name": "OtherStructuresThreatened",
-   "alias": "Other Structures Threatened",
-   "type": "esriFieldTypeInteger"
-  },
-  {
-   "name": "PercentContained",
-   "alias": "Percent Contained",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "PercentPerimeterToBeContained",
-   "alias": "Percent Perimeter To Be Contained",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "PlannedActions",
-   "alias": "Planned Actions",
-   "type": "esriFieldTypeString",
-   "length": 3999
   },
   {
    "name": "POOCity",
@@ -608,103 +360,10 @@
    "length": 6
   },
   {
-   "name": "PredominantFuelGroup",
-   "alias": "PredominantFuelGroup",
-   "type": "esriFieldTypeString",
-   "length": 100
-  },
-  {
-   "name": "PredominantFuelModel",
-   "alias": "Predominant Fuel Model",
-   "type": "esriFieldTypeString",
-   "length": 100
-  },
-  {
-   "name": "PrimaryFuelModel",
-   "alias": "Primary Fuel Model",
-   "type": "esriFieldTypeString",
-   "length": 30
-  },
-  {
-   "name": "ProjectedIncidentActivity12",
-   "alias": "Projected Incident Activity 12",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "ProjectedIncidentActivity24",
-   "alias": "Projected Incident Activity 24",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "ProjectedIncidentActivity48",
-   "alias": "Projected Incident Activity 48",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "ProjectedIncidentActivity72",
-   "alias": "Projected Incident Activity 72",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "ProjectedIncidentActivity72Plus",
-   "alias": "Projected Incident Activity 72 Plus",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "ResidencesDestroyed",
-   "alias": "Residences Destroyed",
-   "type": "esriFieldTypeInteger"
-  },
-  {
-   "name": "ResidencesThreatened",
-   "alias": "Residences Threatened",
-   "type": "esriFieldTypeInteger"
-  },
-  {
-   "name": "SecondaryFuelModel",
-   "alias": "Secondary Fuel Model",
-   "type": "esriFieldTypeString",
-   "length": 30
-  },
-  {
-   "name": "SignificantEvents",
-   "alias": "Significant Events",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "SummaryFuelModel",
-   "alias": "Summary Fuel Model",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "TotalIncidentPersonnel",
-   "alias": "Total Incident Personnel",
-   "type": "esriFieldTypeInteger"
-  },
-  {
    "name": "UniqueFireIdentifier",
    "alias": "Unique Fire Identifier",
    "type": "esriFieldTypeString",
    "length": 22
-  },
-  {
-   "name": "WeatherConcerns",
-   "alias": "Weather Concerns",
-   "type": "esriFieldTypeString",
-   "length": 3999
-  },
-  {
-   "name": "WFDSSDecisionStatus",
-   "alias": "WFDSS Decision Status",
-   "type": "esriFieldTypeString",
-   "length": 20
   },
   {
    "name": "GlobalID",
@@ -716,45 +375,6 @@
    "name": "EstimatedFinalCost",
    "alias": "Estimated Final Cost",
    "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "OrganizationalAssessment",
-   "alias": "Organizational Assessment",
-   "type": "esriFieldTypeString",
-   "length": 25
-  },
-  {
-   "name": "RelativeRiskRating",
-   "alias": "Relative Risk Rating",
-   "type": "esriFieldTypeString",
-   "length": 10
-  },
-  {
-   "name": "WFDSSStrategySliderValue",
-   "alias": "WFDSS Strategy Slider Value",
-   "type": "esriFieldTypeInteger"
-  },
-  {
-   "name": "StrategicDecisionPublishDate",
-   "alias": "Strategic Decision Publish Date",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "ArchivedOn",
-   "alias": "Archived On",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "POOFireIntensityLevel",
-   "alias": "Point of Origin Fire Intensity Level",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "PrimaryWeatherStationIdentifier",
-   "alias": "Primary Weather Station Identifier",
-   "type": "esriFieldTypeString",
-   "length": 6
   },
   {
    "name": "IsPOOOnUnprotectedLand",
@@ -772,49 +392,23 @@
    "alias": "The method by which the fire was detected.",
    "type": "esriFieldTypeString",
    "length": 255
-  },
-  {
-   "name": "FireCauseSpecificDetail",
-   "alias": "A further categorization of each Fire Cause Specific to indicate more specifically the agency or circumstance which started a fire or set the stage for its occurrence. ",
-   "type": "esriFieldTypeString",
-   "length": 200
-  },
-  {
-   "name": "FireCauseAgeCategory",
-   "alias": "A further categorization of each Fire Cause Specific Detail to indicate more specifically the agency or circumstance which started a fire or set the stage for its occurrence.",
-   "type": "esriFieldTypeString",
-   "length": 200
-  },
-  {
-   "name": "FireCauseProhibited",
-   "alias": "Was the fire agency/cause prohibited in the locale in which it started?",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "FireCauseActivityGroup",
-   "alias": "A further categorization of Fire Cause to indicate more specifically the if it was associated with an activity or group.",
-   "type": "esriFieldTypeString",
-   "length": 200
   }
  ],
  "features": [
   {
    "attributes": {
     "ABCDMisc": null,
-    "AdditionalFuelModel": null,
     "ADSPermissionState": "DEFAULT",
     "CalculatedAcres": null,
     "ContainmentDateTime": null,
     "ControlDateTime": null,
     "CreatedBySystem": "cfcad",
     "CreatedOnDateTime": 1562092411850,
-    "CriticalResourceNeeds": null,
     "IncidentSize": null,
     "DiscoveryAcres": 0.1,
     "DispatchCenterID": "CABECC",
     "EstimatedContainmentDate": null,
     "EstimatedCostToDate": null,
-    "Fatalities": null,
     "FinalAcres": null,
     "FireCause": "Unknown",
     "FireCauseGeneral": null,
@@ -829,20 +423,14 @@
     "IncidentShortDescription": null,
     "IncidentTypeCategory": "WF",
     "IncidentTypeKind": "FI",
-    "INFORMUserName": null,
-    "InFuelTreatment": null,
-    "InitialFireStrategy": null,
     "InitialLatitude": 36.3745,
     "InitialLongitude": -121.044,
     "InitialResponseAcres": null,
     "InitialResponseDateTime": null,
-    "Injuries": null,
-    "InNFPORS": null,
     "IrwinID": "{E26092ED-08E6-48C6-97C1-FD0BDDB118F3}",
     "IsFireCauseInvestigated": null,
     "IsFireCodeRequested": 0,
     "IsFSAssisted": null,
-    "IsInitialFireStrategyMet": null,
     "IsMultiJurisdictional": null,
     "IsQuarantined": 0,
     "IsReimbursable": null,
@@ -853,11 +441,6 @@
     "ModifiedBySystem": "firecode",
     "ModifiedOnDateTime": 1569510279853,
     "OBJECTID": 6388783,
-    "OtherStructuresDestroyed": null,
-    "OtherStructuresThreatened": null,
-    "PercentContained": null,
-    "PercentPerimeterToBeContained": null,
-    "PlannedActions": null,
     "POOCity": null,
     "POOCounty": "San Benito",
     "POODispatchCenterID": "CABECC",
@@ -877,39 +460,10 @@
     "POOProtectingAgency": "CDF",
     "POOProtectingUnit": "CABEU",
     "POOState": "US-CA",
-    "PredominantFuelGroup": null,
-    "PredominantFuelModel": null,
-    "PrimaryFuelModel": null,
-    "ProjectedIncidentActivity12": null,
-    "ProjectedIncidentActivity24": null,
-    "ProjectedIncidentActivity48": null,
-    "ProjectedIncidentActivity72": null,
-    "ProjectedIncidentActivity72Plus": null,
-    "ResidencesDestroyed": null,
-    "ResidencesThreatened": null,
-    "SecondaryFuelModel": null,
-    "SignificantEvents": null,
-    "SummaryFuelModel": null,
-    "TotalIncidentPersonnel": null,
     "UniqueFireIdentifier": "2019-CABEU-003815",
-    "WeatherConcerns": null,
-    "WFDSSDecisionStatus": "No Decision",
     "GlobalID": "{E26092ED-08E6-48C6-97C1-FD0BDDB118F3}",
-    "EstimatedFinalCost": null,
-    "OrganizationalAssessment": null,
-    "RelativeRiskRating": null,
-    "WFDSSStrategySliderValue": null,
-    "StrategicDecisionPublishDate": null,
-    "ArchivedOn": null,
-    "POOFireIntensityLevel": null,
-    "PrimaryWeatherStationIdentifier": null,
     "IsPOOOnUnprotectedLand": null,
     "UnprotectedLandResponseReason": null,
-    "DetectionMethod": null,
-    "FireCauseSpecificDetail": null,
-    "FireCauseAgeCategory": null,
-    "FireCauseProhibited": 0,
-    "FireCauseActivityGroup": null
    },
    "geometry": {
     "x": -121.04399999999998,
