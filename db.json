@@ -5,31 +5,17 @@
     "IrwinID": "{E26092ED-08E6-48C6-97C1-FD0BDDB118F3}",
     "OBJECTID": 6388783
    },
-   "geometry": {
-    "x": -121.04399999999998,
-    "y": 36.374500000000069
-   }
-  },
   {
    "attributes": {
     "IncidentName": "HWY 101  N/ UNDERWOOD RD",
     "IrwinID": "{C041C3D6-E18A-458A-A748-D42C8C648F87}",
     "OBJECTID": 6389186
    },
-   "geometry": {
-    "x": -121.20131999999995,
-    "y": 36.293660000000045
-   }
-  },
  {
    "attributes": {
     "IncidentName": "SPRING",
     "IrwinID": "{6EA30166-BC7A-4B67-B95A-3DD7E5BBB319}",
     "OBJECTID": 7609174
-   },
-   "geometry": {
-    "x": -120.26054599999998,
-    "y": 37.700833000000046
    }
   }
  ]
