@@ -8,50 +8,55 @@
  },
  "fields": [
   {
+   "name": "IncidentName",
+   "alias": "Incident Name",
+   "type": "esriFieldTypeString",
+   "length": 50
+  },
+  {
    "name": "IrwinID",
    "alias": "Irwin ID",
    "type": "esriFieldTypeGUID",
    "length": 38
   },
   {
-   "name": "LocalIncidentIdentifier",
-   "alias": "Local Incident Identifier",
-   "type": "esriFieldTypeString",
-   "length": 10
+   "name": "OBJECTID",
+   "alias": "OBJECTID",
+   "type": "esriFieldTypeOID"
   }
  ],
-"features": [
+ "features": [
   {
    "attributes": {
-    "IncidentName": "RIVER",
-    "IrwinID": "{FDA81A41-9A67-41DE-972F-AE69843B646C}",
-    "LocalIncidentIdentifier": "003851",
+    "IncidentName": "TOPO",
+    "IrwinID": "{E26092ED-08E6-48C6-97C1-FD0BDDB118F3}",
+    "OBJECTID": 6388783
    },
    "geometry": {
-    "x": -121.63709999999998,
-    "y": 36.597600000000057
+    "x": -121.04399999999998,
+    "y": 36.374500000000069
    }
   },
   {
    "attributes": {
-    "IncidentName": "PERRY",
-    "IrwinID": "{BA9ECAAD-0389-46A3-A3FD-45A376DD04BB}",
-    "LocalIncidentIdentifier": "017323",
+    "IncidentName": "HWY 101  N/ UNDERWOOD RD",
+    "IrwinID": "{C041C3D6-E18A-458A-A748-D42C8C648F87}",
+    "OBJECTID": 6389186
    },
    "geometry": {
-    "x": -121.10349899999994,
-    "y": 38.880582000000061
+    "x": -121.20131999999995,
+    "y": 36.293660000000045
    }
   },
   {
    "attributes": {
-    "IncidentName": "BOOLE",
-    "IrwinID": "{6544E74D-110A-49D8-B439-888E8B5AFB57}",
-    "LocalIncidentIdentifier": "017356",
+    "IncidentName": "ROCK SPRING VMP",
+    "IrwinID": "{0FCF3453-0556-4A35-BBC5-7CEDB75B48EA}",
+    "OBJECTID": 6389188
    },
    "geometry": {
-    "x": -120.97984099999996,
-    "y": 38.995026000000053
+    "x": -120.98469099999994,
+    "y": 36.451659000000063
    }
   }
  ]
