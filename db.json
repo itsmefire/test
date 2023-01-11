@@ -8,130 +8,15 @@
  },
  "fields": [
   {
-   "name": "CreatedBySystem",
-   "alias": "Created By System",
-   "type": "esriFieldTypeString",
-   "length": 255
-  },
-  {
-   "name": "CreatedOnDateTime",
-   "alias": "Created On Date Time",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "IncidentSize",
-   "alias": "Incident Size",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "DiscoveryAcres",
-   "alias": "Discovery Acres",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "DispatchCenterID",
-   "alias": "Dispatch Center ID",
-   "type": "esriFieldTypeString",
-   "length": 6
-  },
-  {
-   "name": "FireCause",
-   "alias": "Fire Cause",
-   "type": "esriFieldTypeString",
-   "length": 15
-  },
-  {
-   "name": "FireCauseGeneral",
-   "alias": "Fire Cause General",
-   "type": "esriFieldTypeString",
-   "length": 100
-  },
-  {
-   "name": "FireCauseSpecific",
-   "alias": "Fire Cause Specific",
-   "type": "esriFieldTypeString",
-   "length": 200
-  },
-  {
-   "name": "FireCode",
-   "alias": "Fire Code",
-   "type": "esriFieldTypeString",
-   "length": 4
-  },
-  {
-   "name": "FireDepartmentID",
-   "alias": "FireDepartmentID",
-   "type": "esriFieldTypeString",
-   "length": 5
-  },
-  {
-   "name": "FireDiscoveryDateTime",
-   "alias": "Fire Discovery Date Time",
-   "type": "esriFieldTypeDate",
-   "length": 8
-  },
-  {
-   "name": "FSJobCode",
-   "alias": "FS Job Code",
-   "type": "esriFieldTypeString",
-   "length": 2
-  },
-  {
-   "name": "FSOverrideCode",
-   "alias": "FS Override Code",
-   "type": "esriFieldTypeString",
-   "length": 4
-  },
-  {
-   "name": "GACC",
-   "alias": "GACC",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
    "name": "IncidentName",
    "alias": "Incident Name",
    "type": "esriFieldTypeString",
    "length": 50
   },
   {
-   "name": "IncidentShortDescription",
-   "alias": "Incident Short Description",
-   "type": "esriFieldTypeString",
-   "length": 80
-  },
-  {
-   "name": "IncidentTypeCategory",
-   "alias": "Incident Type Category",
-   "type": "esriFieldTypeString",
-   "length": 2
-  },
-  {
-   "name": "IncidentTypeKind",
-   "alias": "Incident Type Kind",
-   "type": "esriFieldTypeString",
-   "length": 2
-  },
-  {
    "name": "InitialLatitude",
    "alias": "Initial Latitude",
    "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "InitialLongitude",
-   "alias": "Initial Longitude",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "InitialResponseAcres",
-   "alias": "Initial Response Acres",
-   "type": "esriFieldTypeDouble"
-  },
-  {
-   "name": "InitialResponseDateTime",
-   "alias": "Initial Response Date Time",
-   "type": "esriFieldTypeDate",
-   "length": 8
   },
   {
    "name": "IrwinID",
@@ -145,173 +30,72 @@
    "type": "esriFieldTypeSmallInteger"
   },
   {
-   "name": "IsFSAssisted",
-   "alias": "Is FS Assisted",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "IsMultiJurisdictional",
-   "alias": "Is Multi Jurisdictional",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "IsQuarantined",
-   "alias": "Is Quaranitined",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "IsReimbursable",
-   "alias": "Is Reimbursable",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "IsTrespass",
-   "alias": "Is Trespass",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "IsUnifiedCommand",
-   "alias": "Is Unified Command",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
-   "name": "IsValid",
-   "alias": "Is Valid",
-   "type": "esriFieldTypeSmallInteger"
-  },
-  {
    "name": "LocalIncidentIdentifier",
    "alias": "Local Incident Identifier",
    "type": "esriFieldTypeString",
    "length": 10
   },
   {
-   "name": "ModifiedBySystem",
-   "alias": "Modified By System",
-   "type": "esriFieldTypeString",
-   "length": 255
-  },
-  {
-   "name": "ModifiedOnDateTime",
-   "alias": "Modified On Date Time",
-   "type": "esriFieldTypeDouble"
-  },
-  {
    "name": "OBJECTID",
    "alias": "OBJECTID",
    "type": "esriFieldTypeOID"
-  },
-  {
-   "name": "POODispatchCenterID",
-   "alias": "Dispatch Center ID",
-   "type": "esriFieldTypeString",
-   "length": 6
-  },
-  {
-   "name": "POOJurisdictionalAgency",
-   "alias": "POO Jurisdictional Agency",
-   "type": "esriFieldTypeString",
-   "length": 50
-  },
-  {
-   "name": "POOProtectingUnit",
-   "alias": "POO Protecting Unit",
-   "type": "esriFieldTypeString",
-   "length": 6
-  },
-  {
-   "name": "POOState",
-   "alias": "POO State",
-   "type": "esriFieldTypeString",
-   "length": 6
-  },
-  {
-   "name": "UniqueFireIdentifier",
-   "alias": "Unique Fire Identifier",
-   "type": "esriFieldTypeString",
-   "length": 22
-  },
-  {
-   "name": "GlobalID",
-   "alias": "GlobalID",
-   "type": "esriFieldTypeGlobalID",
-   "length": 38
-  },
+  }
  ],
  "features": [
   {
    "attributes": {
-    "ABCDMisc": null,
-    "ADSPermissionState": "DEFAULT",
-    "CalculatedAcres": null,
-    "ContainmentDateTime": null,
-    "ControlDateTime": null,
-    "CreatedBySystem": "cfcad",
-    "CreatedOnDateTime": 1562092411850,
-    "IncidentSize": null,
-    "DiscoveryAcres": 0.1,
-    "DispatchCenterID": "CABECC",
-    "EstimatedContainmentDate": null,
-    "EstimatedCostToDate": null,
-    "FinalAcres": null,
-    "FireCause": "Unknown",
-    "FireCauseGeneral": null,
-    "FireCauseSpecific": null,
-    "FireCode": "MT1U",
-    "FireDepartmentID": null,
-    "FireDiscoveryDateTime": 1562088462000,
-    "FSJobCode": null,
-    "FSOverrideCode": null,
-    "GACC": "OSCC",
     "IncidentName": "TOPO",
-    "IncidentShortDescription": null,
-    "IncidentTypeCategory": "WF",
-    "IncidentTypeKind": "FI",
     "InitialLatitude": 36.3745,
-    "InitialLongitude": -121.044,
-    "InitialResponseAcres": null,
-    "InitialResponseDateTime": null,
     "IrwinID": "{E26092ED-08E6-48C6-97C1-FD0BDDB118F3}",
-    "IsFireCauseInvestigated": null,
     "IsFireCodeRequested": 0,
-    "IsFSAssisted": null,
-    "IsMultiJurisdictional": null,
-    "IsQuarantined": 0,
-    "IsReimbursable": null,
-    "IsTrespass": null,
-    "IsUnifiedCommand": null,
-    "IsValid": 1,
     "LocalIncidentIdentifier": "003815",
-    "ModifiedBySystem": "firecode",
-    "ModifiedOnDateTime": 1569510279853,
-    "OBJECTID": 6388783,
-    "POOCity": null,
-    "POOCounty": "San Benito",
-    "POODispatchCenterID": "CABECC",
-    "POOFips": "06069",
-    "POOJurisdictionalAgency": "CDF",
-    "POOJurisdictionalUnit": "CABEU",
-    "POOJurisdictionalUnitParentUnit": null,
-    "POOLandownerCategory": null,
-    "POOLandownerKind": null,
-    "POOLegalDescPrincipalMeridian": null,
-    "POOLegalDescQtr": null,
-    "POOLegalDescQtrQtr": null,
-    "POOLegalDescRange": null,
-    "POOLegalDescSection": null,
-    "POOLegalDescTownship": null,
-    "POOPredictiveServiceAreaID": "SC06",
-    "POOProtectingAgency": "CDF",
-    "POOProtectingUnit": "CABEU",
-    "POOState": "US-CA",
-    "UniqueFireIdentifier": "2019-CABEU-003815",
-    "GlobalID": "{E26092ED-08E6-48C6-97C1-FD0BDDB118F3}",
-    "IsPOOOnUnprotectedLand": null,
-    "UnprotectedLandResponseReason": null,
+    "OBJECTID": 6388783
    },
    "geometry": {
     "x": -121.04399999999998,
     "y": 36.374500000000069
+   }
+  },
+  {
+   "attributes": {
+    "IncidentName": "HWY 101  N/ UNDERWOOD RD",
+    "InitialLatitude": 36.29366,
+    "IrwinID": "{C041C3D6-E18A-458A-A748-D42C8C648F87}",
+    "IsFireCodeRequested": 0,
+    "LocalIncidentIdentifier": "003814",
+    "OBJECTID": 6389186
+   },
+   "geometry": {
+    "x": -121.20131999999995,
+    "y": 36.293660000000045
+   }
+  },
+  {
+   "attributes": {
+    "IncidentName": "ROCK SPRING VMP",
+    "InitialLatitude": 36.451659,
+    "IrwinID": "{0FCF3453-0556-4A35-BBC5-7CEDB75B48EA}",
+    "IsFireCodeRequested": 0,
+    "LocalIncidentIdentifier": "005206",
+    "OBJECTID": 6389188
+   },
+   "geometry": {
+    "x": -120.98469099999994,
+    "y": 36.451659000000063
+   }
+  },
+  {
+   "attributes": {
+    "IncidentName": "STN 38 - ANTELOPE ANTELOP",
+    "InitialLatitude": 36.644424,
+    "IrwinID": "{FC8CB28F-ED1E-4B77-A2E7-AA8CDEF0516D}",
+    "IsFireCodeRequested": 0,
+    "LocalIncidentIdentifier": "003813",
+    "OBJECTID": 6389190
+   },
+   "geometry": {
+    "x": -121.02880799999997,
+    "y": 36.644424000000072
    }
   }
  ]
